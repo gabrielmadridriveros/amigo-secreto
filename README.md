@@ -13,7 +13,9 @@
 
 3.- Puedes ingresar tamtos nombres como quieras.
 
-4.- Una vez que realices el sorteo, se reiniciara automaicamente despues de 5 segundos.
+4.- Una vez que realices el sorteo, se reiniciará automáticamente despues de 5 segundos.
+
+5.- Se debe ingresar al menos 3 nombre al listado.
 </p>
 
 
