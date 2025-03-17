@@ -54,10 +54,14 @@ function actualizarListaAmigos() {
     document.getElementById("listaAmigoSecreto").value ="";
 }
   function sortearAmigo() {
-    if (listaAmigoSecreto.length <= 2) {
+    if (listaAmigoSecreto.length === 0) {
+      alert("No hay amigos en la lista para sortear.");
+    
+    if (listaAmigoSecreto.length <= 2 ) {
       alert("Se sequiere al menos 3 amigos para el sorteo.");
       return;
     }
+  }
 
     const indiceAleatorio = Math.floor(Math.random() * listaAmigoSecreto.length);
     const amigoSorteado = listaAmigoSecreto[indiceAleatorio];
@@ -83,5 +87,3 @@ function actualizarListaAmigos() {
     // Limpiar la caja de texto
     limpiarCaja();
 }
- 
- 
